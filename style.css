@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+    text-align:center;
+}
+h2{
+    color:red;
+    text-align:center;
+
+}
+p{
+    color: indigo;
+    size: 10px;
+}
+
+
+
+button{
+    display: block;
+    margin: 10px auto;
+}
