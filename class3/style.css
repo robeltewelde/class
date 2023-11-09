@@ -1,0 +1,18 @@
+.top{
+    border: 2px solid red;
+    margin: 0px 50px;
+}
+.top h1{
+    text-align: center;
+    color: blue;
+
+}
+.top img{
+    padding: 1px 15px;
+    border-radius: 10%;
+}
+.top p{
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+}
