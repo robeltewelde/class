@@ -1,0 +1,28 @@
+.top{
+    border: 1px solid grey;
+    margin: 0px 100px;
+}
+.top h1 {
+  text-align: center;
+  color: red;
+}
+.top p {
+  text-align: center;
+  margin: 10px 10px;
+}
+.top button {
+  padding: 5px 10px;
+  display: block;
+  margin: 10px auto;
+}
+.top img {
+  display: block;
+  margin:10px auto;
+  border-radius: 10%;
+}
+.bottom img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+
+}
