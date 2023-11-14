@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: brown;
+}
+nav ul a:hover {
+  color: rgb(117, 113, 107);
+}
+nav img {
+  width: 250px;
+  height: 150px;
+}
+
+#form-container {
+  background-color: rgb(233, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  border-color: black;
+  border-style: groove;
+}
+.top {
+  background-color: rgb(9, 230, 75);
+  padding:40px ;
+}
+.RB {
+    background-color: goldenrod;
+    padding: 45;
+
+}
