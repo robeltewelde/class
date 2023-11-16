@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.class1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow:5px 5px 10px grey;
+}
+.class1 i{
+     color: rgb(1, 6, 10);
+    position: relative;
+    
+    
+
+}
+.class1 img{
+    width: 350px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.class2{
+    padding: 10px;
+    margin:5px ;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.class1 a{
+    text-decoration: none;
+}
+.class1 a:hover .i{
+    top: 20px;
+}
