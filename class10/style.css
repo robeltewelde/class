@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  display: flex;
+  gap: 20px;
+  border: 1px solid grey;
+}
+
+.cont nav{
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+ }
+
+.cont nav img{
+  
+}
+
+.class-container {
+  display: flex;
+}
+
+.class-container .card img{
+  width: 200px;
+}
+
+.card {
+  border: 1px solid grey;
+  
+  width: 200px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.card .note{
+  text-align: center;
+}
+nav  a{
+  text-decoration: none;
+  color: black;
+}
+
+.class-container a{
+  text-decoration: none;
+}
