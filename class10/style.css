@@ -4,7 +4,7 @@
 }
 .cont {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   border: 1px solid grey;
 }
 
@@ -29,7 +29,7 @@
 
 .card {
   border: 1px solid grey;
-  
+  background-color: brown;
   width: 200px;
   color: black;
   text-decoration: none;
@@ -45,4 +45,11 @@ nav  a{
 
 .class-container a{
   text-decoration: none;
+}
+.class-container2 img{
+  width: 200px;
+ height: 200px;
+}
+.class-container2 a{
+  text-decoration: non;
 }
