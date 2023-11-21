@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+   text-align: center;
+   color: whitesmoke;
+   padding: 70px;
+}
+.op img{
+    width: 200px;;
+    border-radius: 200px;
+    border: 1px solid whitesmoke;    
+}
+
+.bg{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+}
+.op {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.op .po{
+    text-align: center;
+    color: whitesmoke;
+  
+}
