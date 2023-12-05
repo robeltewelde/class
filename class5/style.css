@@ -1,3 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.background img {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,6 +32,111 @@ nav ul a:hover {
   scale: 1.5;
 }
 
-
-
 /* main bopdy */
+section {
+  display: flex;
+  gap: 50px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background-color: rgb(251, 251, 252);
+  padding: 2px;
+  width: fit-content;
+  margin: 50px 10px;
+  text-align: center;
+  display: flex;
+  gap: 100px;
+}
+.card-container:hover {
+  color: rgba(238, 226, 226, 0.384);
+  scale: 1.2;
+}
+.card-container img {
+  border-radius: 10px;
+  align-items: center;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+#hey {
+  margin-left: 0px;
+  animation: para;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes para {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 110px;
+  }
+}
+
+#menu {
+  display: none;
+}
+
+/* device change */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 890px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+  }
+}
+
+@media (max-width: 790px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: aquamarine;
+    position: absolute;
+    top: 20px;
+    /* right: -140px; */
+    gap: 10px;
+    list-style: none;
+  }
+
+  #menu {
+    display: flex;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+  }
+  #menu:hover nav ul {
+    right: 40px;
+    transition: ease-in;
+  }
+
+  nav img {
+    position: absolute;
+    top: 0;
+    width: ;
+  }
+  section {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 490px) {
+  .container {
+    height: 100vh;
+    background: rgb(48, 130, 155);
+    overflow: scroll;
+  }
+}

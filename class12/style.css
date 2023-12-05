@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* backgroun image css */
+.top img {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+nav {
+  padding: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  color: whitesmoke;
+}
+h6 {
+  text-align: center;
+  color: whitesmoke;
+}
+.buttom {
+  padding: 15;
+  text-align: center;
+}
+.buttom input {
+  width: 250px;
+  height: 20px;
+}
+.buttom button {
+  background-color: coral;
+  width: 70;
+  height: 18;
+}
+
+/* transparent boxes css */
+
+.one {
+  height: 50px;
+  width: 80px;
+  background: rgba(255, 255, 255, 0.308);
+  padding: 30px;
+}
+
+.parent{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
